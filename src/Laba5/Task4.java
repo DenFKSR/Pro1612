@@ -6,12 +6,11 @@ public class Task4 {
     private String mainText;
     private String controlString;
 
-    public Task4(String mainText, String controlString) {
+
+
+    public void countSameWord(String mainText, String controlString) {
         this.mainText = mainText;
         this.controlString = controlString;
-    }
-
-    public void countSameWord() {
         System.out.println("");
         System.out.println("Задание №4");
         System.out.println("Строка №1: "+mainText);

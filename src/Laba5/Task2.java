@@ -4,10 +4,9 @@ import java.util.Locale;
 
 public class Task2 {
     private String text;
-    public Task2(String text) {
+
+    public void checkPalindrome(String text){
         this.text = text;
-    }
-    public void checkPalindrome(){
         System.out.println("");
         System.out.println("Задание №2");
         String string = text.toLowerCase(Locale.ROOT);

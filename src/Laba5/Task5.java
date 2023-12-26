@@ -4,10 +4,9 @@ import java.util.Arrays;
 
 public class Task5 {
     private String text;
-    public Task5(String text) {
+
+    public void reversWords(String text){
         this.text = text;
-    }
-    public void reversWords(){
         System.out.println("");
         System.out.println("Задание №5");
         System.out.println("Строка №1: "+text);

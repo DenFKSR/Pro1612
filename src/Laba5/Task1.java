@@ -6,13 +6,12 @@ import java.util.Arrays;
 public class Task1 {
     private String text;
 
-    public Task1(String text) {
-        this.text = text;
-    }
 
-    public void findLongWord() {
+    public void findLongWord(String text) {
+        this.text = text;
         System.out.println("Задание №1");
         System.out.println("Исходный текст: "+ text);
+
         String s = text.replaceAll("\\pP", "");
         String[] words = s.split(" ");
         int[] array1 = new int[words.length];
