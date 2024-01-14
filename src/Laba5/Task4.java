@@ -27,8 +27,10 @@ public class Task4 {
         for (int i=0; i< words.length; i++){
             if (words[i].equals(s1)){
                 count++;
+                System.out.println(words[i]);
             }
         }
+
         System.out.println("Количество совпадений: "+count);
 
     }
